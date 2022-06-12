@@ -27,7 +27,7 @@ AFRAME.registerComponent("diamond", {
       diamondEl.setAttribute('scale',{x:5,y:5,z:5})
       
       
-      diamondEl.setAttribute("gltf-model","./diamonds/scene.gltf");   
+      diamondEl.setAttribute("gltf-model","./diamonds/diamonds/scene.gltf");   
   
       terrainEl.appendChild(diamondEl);
     }
